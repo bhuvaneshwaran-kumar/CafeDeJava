@@ -1,4 +1,29 @@
 *{
-    box-sizing: border-box;
-  }
-  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.right{
+  display: inline-block;
+  float: left;
+}
+.right li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+.right a{
+  text-decoration: none;
+}
+.left{
+  display: inline-block;
+  float: right;
+}
+.left li{
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+}
+.left a{
+  text-decoration: none;
+}
