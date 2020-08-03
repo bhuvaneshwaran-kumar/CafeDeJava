@@ -11,29 +11,22 @@
             margin: 0;
             box-sizing: border-box;
         }
-        body{
-        
-        }
-        #Coffee{
+        #movingtext{
             width: 50%;
-            float: left;
-            
+            float: left;  
         }
         #logo text{
             position: absolute;
-            
         }
+
         #logo text{
             font-family:fantasy;
             stroke:teal;
-            font-size: 200px;
+            font-size: 100px;
             stroke-width:4;
-            animation: textAnimate  5s ease forwards ;
-            
+            animation: textAnimate  5s ease alternate infinite ;
         }
-        #logo text{
-            animation: fill 0.5s ease forwards 3s;
-        }
+        
         
         @keyframes textAnimate {
             from{
@@ -54,7 +47,6 @@
             to{
                 fill: cadetblue; 
             }
-
         }
            
   
@@ -65,10 +57,10 @@
     </script>
 </head>
 <body>
-    <div id="Coffee">
+    <div id="movingtext">
         <svg id="logo" viewBox="0 0 1350 600">
             <text x="50%" y="50%" fill="transparent" text-anchor="middle">
-                Cafe de java
+                We know you love Coffee
             </text> 
         </svg>
     </div>
