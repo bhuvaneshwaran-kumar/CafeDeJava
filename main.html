@@ -1,12 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafe de java</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
 </head>
 <body>
-    
+    <header>
+        <div class="right">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#FeedBack" onclick="TurnOnFeedBack()" >Feedback</a></li>
+        </div>
+        <div class="left">
+            <li><a href="login.html">Log-in</a></li>
+            <li><a href="#">Sign-up</a></li>
+        </div>
+    </header>
+    <!--FeedBack section Start------------------->
+    <div class="feedback" id="FeedBack">
+        <div class="row">
+            <h2>FeedBack :</h2>
+            <p style="text-indent: 20%;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat sunt excepturi distinctio quaerat id? Dignissimos, tempore. Voluptates consectetur iste mollitia incidunt magnam nam, deleniti sunt molestiae ullam assumenda quaerat cupiditate?
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quam similique at autem aperiam illo beatae voluptatibus voluptas alias accusamus nisi, laboriosam qui id eligendi nobis, necessitatibus enim dolorum sunt? <b>By clicking send button we will get your comments</b>
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h3>Name :</h3>
+            </div>
+            <div class="col-2">
+                <h4 id="UserName">
+                    Manibarathi.S
+                </h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h3>Comments :</h3>
+            </div>
+            <div class="col-2">
+                <form action="#" id="commentForm" method="POST">
+                <textarea name="UserFeedbck" id="Feedback" required></textarea>
+               </form>
+            </div>
+        </div>
+        <input type="submit" form="commentForm" value="SEND">
+       
+    </div>
 </body>
 </html>
