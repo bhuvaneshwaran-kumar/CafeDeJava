@@ -91,7 +91,7 @@ header{
   stroke: #154360 ;
   font-size: 100px;
   stroke-width:4;
-  animation: textAnimate  5s ease alternate infinite ;
+  animation: textAnimate  10s ease   ;
 }
 
 @keyframes textAnimate {
