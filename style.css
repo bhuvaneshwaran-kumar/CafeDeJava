@@ -1,49 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-*{
-    box-sizing: border-box;
-    margin: 0;
-    background-size:cover ;
-    background-repeat:no-repeat ;
-    background-attachment: fixed;
-    background-position: center center;
-    font-family: 'Montserrat' , sans-serif;
-  }
-  a:hover,
-  a:active,
-  a:focus,
-  input:hover,
-  input:active,
-  input:focus,
-  button:hover,
-  button:active,
-  button:focus {
-  outline: 0;
-}
 
+
+
+body{
+  /* background: url("./images/backgrounds/main_01_1440x1024.jpg")  no-repeat; */
+  background: #FF5F6D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  
+  height: 100vh;
+  font-family: 'Montserrat' , sans-serif;
+}
 /*-----------------------HEADER Navbar---------------------------- */
-header{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    font-weight: 500;
-}
-header a{
-  color: whitesmoke;
-  text-decoration: none;
-  display: block;
-}
-header a:hover{
-  border-style:solid;
-  border-width: 0px 0px 1px 0px;
-}
 
-.right li , .left li{
-  list-style: none;
-  display: inline-block;
-  padding: 10px;
-}
 
-/*----HEADER END------ */
+/*----HEADER END------ */ 
 /*---- text animation---------*/
 
 #movingtext{
@@ -51,28 +23,27 @@ header a:hover{
   width: 50%;
   margin: auto;  
 }
+
 #logo text{
-  position: absolute;
+  font-family: 'Montserrat' , sans-serif;
 }
 
 #logo text{
   font-family:fantasy;
-  stroke: #154360 ;
+  stroke: #ffffff ;
   font-size: 100px;
-  stroke-width:4;
-  animation: textAnimate 7s ease   ;
+  stroke-width:2;
+  animation: textAnimate 7s ease infinite alternate ;
 }
 
 @keyframes textAnimate {
   from{
       stroke-dasharray: 0 50%;
       stroke-dashoffset: 20%;
-      
   }
   to{
       stroke-dasharray: 50% 0;
       stroke-dashoffset: -20%; 
-      
   }
 }
 @keyframes fill {
@@ -87,7 +58,8 @@ header a:hover{
 /*-----FeedBack Starts---- */
 
 .feedback{
-  width: 80%;
+
+  width: ;
   margin: auto;
   display: none;
 }
