@@ -20,41 +20,34 @@
   outline: 0;
 }
 
-/*----HEADER START----- */
+/*-----------------------HEADER Navbar---------------------------- */
 header{
     width: 100%;
     display: flex;
     justify-content: space-between;
-}
-.right{
-  float: left;
+    font-weight: 500;
 }
 header a{
   color: whitesmoke;
+  text-decoration: none;
+  display: block;
 }
-.right li{
+header a:hover{
+  border-style:solid;
+  border-width: 0px 0px 1px 0px;
+}
+
+.right li , .left li{
   list-style: none;
   display: inline-block;
   padding: 10px;
 }
-.right a{
-  text-decoration: none;
-}
-.left{
-  float: right;
-}
-.left li{
-  display: inline-block;
-  list-style: none;
-  padding: 10px;
-}
-.left a{
-  text-decoration: none;
-}
+
 /*----HEADER END------ */
 /*---- text animation---------*/
 
 #movingtext{
+  z-index: 5;
   width: 50%;
   margin: auto;  
 }
@@ -67,7 +60,7 @@ header a{
   stroke: #154360 ;
   font-size: 100px;
   stroke-width:4;
-  animation: textAnimate  10s ease   ;
+  animation: textAnimate 7s ease   ;
 }
 
 @keyframes textAnimate {
