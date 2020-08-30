@@ -1,60 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
-
     box-sizing: border-box;
     margin: 0;
     background-size:cover ;
     background-repeat:no-repeat ;
     background-attachment: fixed;
     background-position: center center;
+    font-family: 'Montserrat' , sans-serif;
   }
-  
+  a:hover,
+  a:active,
+  a:focus,
+  input:hover,
+  input:active,
+  input:focus,
+  button:hover,
+  button:active,
+  button:focus {
+  outline: 0;
+}
 
-  /*<---- sign up page -------------------------------------------------------------------------- >*/
-  .sign-up{
-    font-weight: 500;
-    margin: auto;
-    margin-top:10% ;
-    padding: 30px;
-    width: 30%; 
-    font-family: sans-serif;
-    background-color: rgba(252, 250, 245, 0.671);
-    border-radius: 5px;
-  }
-  .sign-up label{
-    width: 100%;
-    margin: 10px;
-  }
-  .sign-up input{
-    width: 100%;
-    margin-top: 10px;
-    padding: 10px;
-    color: rgb(83, 83, 83);
-    font-size: 17px;
-    border:  none;
-    
-  }
-  .sign-up button{
-    background-color: cadetblue;
-    width: 100%;
-    margin-top: 10px;
-    padding: 10px;
-    border: none;
-    color: whitesmoke;
-    font-weight: bolder;
-    font-size: medium;
-  }
-  .sign-up button:hover{
-    background-color: rgb(102, 150, 151);
-  }
-
-/* ----main.html----------------------------------------------------------------------------------->
 /*----HEADER START----- */
 header{
     width: 100%;
-    display: table;
+    display: flex;
+    justify-content: space-between;
 }
 .right{
   float: left;
+}
+header a{
+  color: whitesmoke;
 }
 .right li{
   list-style: none;
