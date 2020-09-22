@@ -47,10 +47,34 @@ body{
 }
 
 /*-----FeedBack Starts---- */
+/*-----FeedBack Ends---- */
+ 
+
+
+
+/* Media queries */
+@media screen and (max-width:700px){
+  .movingtext{
+    width: 100%;
+  }
+}
+
+
+/* .feedback-container{
+  width:100%;
+  z-index: 10;
+  position: fixed;
+  top: 30;
+  left: 0;
+  display: none;
+  place-items: center ;
+}
 
 .feedback{
   margin: auto;
   display: none;
+  width: 500px;
+  z-index: 10;
 }
 .feedback .row{
   position: relative;
@@ -78,15 +102,4 @@ body{
   float :right;
   margin-right: 10%;
   padding: 08px 20px;
-}
-/*-----FeedBack Ends---- */
- 
-
-
-
-/* Media queries */
-@media screen and (max-width:700px){
-  .movingtext{
-    width: 100%;
-  }
-}
+} */

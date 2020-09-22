@@ -6,7 +6,7 @@
     padding: 30px;
     width: 350px; 
     font-family: sans-serif;
-    background-color: rgba(252, 250, 245, 0.671);
+    background-color: rgba(252, 250, 245, 0.233);
     border-radius: 5px;
   }
   .sign-up label{
@@ -31,11 +31,11 @@
     color: whitesmoke;
     font-weight: bolder;
     font-size: medium;
+    border-radius: 4px;
   }
   .sign-up button:hover{
     background-color: rgb(102, 150, 151);
+    cursor: pointer;
   }
 
-  form > button{
-    border-radius: 4px;
-  }
+  
