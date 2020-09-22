@@ -58,22 +58,31 @@ body{
 /* ----------Footer --------------------------------------------*/
 footer{
   width: 100%;
-  min-height: 300px;
+  min-height: 200px;
   background: rgba(255, 255, 255, 0.315);
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .footer-main{
+  width:900px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer-left , .footer-right{
   width: 50%;
   padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-left{
   padding: 10px;
+  font-size: small;
+  font-weight: 600;
 }
 .form-subscribe{
   width: 100%;
@@ -98,15 +107,29 @@ footer{
   font-family: Montserrat ,sans-serif;
 }
 
-
-
 .form-subscribe > form > button {
   background:teal;
   color: #ffffff;
   font-size: medium;
 }
+.social-media{
+  display: flex;
+  justify-content:center;
+}
+.social-media li{
+  margin : 0px 10px;
+
+}
+.social-media li i{
+  transition : transform 0.3s ease-out;
+  color:black;
+}
+.social-media li:hover i{
+  transform:scale(1.1,1.1);
+}
 
 
+  
 
 /* Media queries */
 @media screen and (max-width:700px){
