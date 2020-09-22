@@ -19,6 +19,10 @@ body{
   margin: auto; 
 }
 
+.infotext{
+  width: 500px;
+  margin: auto;
+}
 #logo text{
   font-family: 'Montserrat' , sans-serif;
   stroke: #ffffff ;
@@ -49,6 +53,58 @@ body{
 /*-----FeedBack Starts---- */
 /*-----FeedBack Ends---- */
  
+
+
+/* ----------Footer --------------------------------------------*/
+footer{
+  width: 100%;
+  min-height: 300px;
+  background: rgba(255, 255, 255, 0.315);
+  display: flex;
+  justify-content: center;
+}
+.footer-main{
+  display: flex;
+}
+
+.footer-left , .footer-right{
+  width: 50%;
+  padding: 10px 20px;
+}
+
+.footer-left{
+  padding: 10px;
+}
+.form-subscribe{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.footer-right{
+  display: flex;
+  flex-direction: column;
+}
+.form-subscribe > form{
+  width: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.form-subscribe > form > input,button{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  font-size: medium;
+  font-family: Montserrat ,sans-serif;
+}
+
+
+
+.form-subscribe > form > button {
+  background:teal;
+  color: #ffffff;
+  font-size: medium;
+}
 
 
 

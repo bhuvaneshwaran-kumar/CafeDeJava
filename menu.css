@@ -22,6 +22,10 @@
 }
 .menu-flip{
     flex-flow: row-reverse;
+    justify-content:space-between;
+}
+.menu-flip .content{
+    margin-left:10px;
 }
 .menu-container .row .img{
     width: 40%;
@@ -30,7 +34,7 @@
     position :relative;
     transition : all 1s ease;
     border-radius: 5px;
-    /* border:1px solid black; */
+    box-shadow: 0px -2px 30px -4px rgba(0,0,0,0.75);    /* border:1px solid black; */
 }
 .menu-container .row .img img{
     width:100%;
