@@ -110,6 +110,13 @@ footer{
   color: #ffffff;
   font-size: medium;
 }
+
+.form-subscribe > form > button:hover{
+  cursor: pointer;
+  /* filter: brightness(110%); */
+  background:rgb(25, 150, 150);
+}
+
 .social-media{
   display: flex;
   justify-content:center;
