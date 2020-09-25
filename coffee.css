@@ -51,3 +51,36 @@
     bottom: 0;
     display: block;
 }
+
+
+/* ------------footer ------------------------- */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.315);
+}
+
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    width: 100%;
+    max-width: 900px;
+    min-height: 50px;
+}
+.social-media{
+    display: flex;
+}
+
+
+.social-media > a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+.social-media > a:hover{
+    transform: scale(1.1,1.1);
+}
