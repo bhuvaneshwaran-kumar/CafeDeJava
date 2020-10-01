@@ -1,3 +1,4 @@
+const goTopBtn = document.getElementById('go-top-btn');
 // function TurnOnFeedBack(){
 //     document.getElementById("FeedBack").style.display="block";
 //     }
@@ -14,3 +15,19 @@
 //             image.style = style;
 //     })
 // }
+
+// EventListner
+goTopBtn.addEventListener('click', ()=>{
+    window.scrollTo(0,0);
+})
+
+window.addEventListener('scroll',()=>{
+    if (window.scrollY > 350 ) {
+        if(! goTopBtn.classList.contains('display-top-btn')){
+            goTopBtn.style.display='block';
+        }
+      }
+    else{
+        goTopBtn.style.display='none'; 
+    }
+})

@@ -1,17 +1,18 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .sign-up{
     font-weight: 500;
     margin: auto;
     margin-top:10% ;
     padding: 30px;
     width: 350px; 
-    font-family: sans-serif;
+    font-family: 'Montserrat',sans-serif;
     background-color: rgba(252, 250, 245, 0.233);
     border-radius: 5px;
   }
   .sign-up label{
     width: 100%;
     margin: 10px;
+    font-family: 'Montserrat',sans-serif;
   }
   .sign-up input{
     width: 100%;
@@ -20,7 +21,7 @@
     color: rgb(83, 83, 83);
     font-size: 17px;
     border:  none;
-    
+    font-family: 'Montserrat',sans-serif;
   }
   .sign-up button{
     background-color: cadetblue;
@@ -32,6 +33,7 @@
     font-weight: bolder;
     font-size: medium;
     border-radius: 4px;
+    font-family: 'Montserrat',sans-serif;
   }
   .sign-up button:hover{
     background-color: rgb(102, 150, 151);

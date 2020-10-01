@@ -52,6 +52,26 @@ body{
 /*-----FeedBack Ends---- */
  
 
+/* Go to Top Btn--------------------------------- */
+#go-top-btn{
+  position: fixed;
+  display: none;
+  bottom: 5px;
+  right: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: transparent;
+  z-index: 10;
+}
+
+#go-top-btn:hover{
+  background: rgba(255, 255, 255, 0.226);
+  cursor: pointer;
+}
+
+#go-top-btn:active{
+  transform: scale(0.95,0.95);
+}
 
 /* ----------Footer --------------------------------------------*/
 footer{
