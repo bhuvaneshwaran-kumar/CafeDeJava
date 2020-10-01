@@ -49,9 +49,49 @@ body{
 }
 
 /*-----FeedBack Starts---- */
-/*-----FeedBack Ends---- */
- 
 
+.feedback-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.form-div{
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+}
+
+.form-div >form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.form-left,.form-right{
+  margin: 10px 5px;
+  width: 50%;
+}
+.form-div input,textarea{
+  padding:10px;
+  margin-top: 20px;
+  font-family:'Montserrat' , sans-serif; 
+  border: none;
+  width: 100%;
+}
+
+.inside-form{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.form-btn  button{
+  background:teal;
+  color: #ffffff;
+  font-size: medium;
+  border-radius: 4px;
+}
+
+
+/*-----FeedBack Ends---- */
 /* Go to Top Btn--------------------------------- */
 #go-top-btn{
   position: fixed;

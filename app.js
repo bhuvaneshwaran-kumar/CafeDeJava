@@ -23,9 +23,7 @@ goTopBtn.addEventListener('click', ()=>{
 
 window.addEventListener('scroll',()=>{
     if (window.scrollY > 350 ) {
-        if(! goTopBtn.classList.contains('display-top-btn')){
             goTopBtn.style.display='block';
-        }
       }
     else{
         goTopBtn.style.display='none'; 
