@@ -38,7 +38,9 @@
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: white;   
+    color: white;  
+    text-decoration: underline; 
+    text-transform: uppercase;
 }
 .cooffe-container .co-content .inner p.desc{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
