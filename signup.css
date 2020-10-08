@@ -1,43 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-.sign-up{
-    font-weight: 500;
-    margin: auto;
-    margin-top:10% ;
-    padding: 30px;
-    width: 350px; 
-    font-family: 'Montserrat',sans-serif;
-    background-color: rgba(252, 250, 245, 0.233);
-    border-radius: 5px;
-  }
-  .sign-up label{
-    width: 100%;
-    margin: 10px;
-    font-family: 'Montserrat',sans-serif;
-  }
-  .sign-up input{
-    width: 100%;
-    margin-top: 10px;
-    padding: 10px;
-    color: rgb(83, 83, 83);
-    font-size: 17px;
-    border:  none;
-    font-family: 'Montserrat',sans-serif;
-  }
-  .sign-up button{
-    background-color: cadetblue;
-    width: 100%;
-    margin-top: 10px;
-    padding: 10px;
-    border: none;
-    color: whitesmoke;
-    font-weight: bolder;
-    font-size: medium;
-    border-radius: 4px;
-    font-family: 'Montserrat',sans-serif;
-  }
-  .sign-up button:hover{
-    background-color: rgb(102, 150, 151);
-    cursor: pointer;
-  }
 
-  
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 600px;
+}
+
+.sign-up {
+  font-weight: 500;
+  margin: auto;
+  padding: 30px;
+  width: 350px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(252, 250, 245, 0.233);
+  border-radius: 5px;
+}
+
+.sign-up label {
+  width: 100%;
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sign-up input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  color: rgb(83, 83, 83);
+  font-size: 17px;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sign-up button {
+  background-color: teal;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: medium;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sign-up button:hover {
+  background-color: rgb(62, 141, 143);
+  cursor: pointer;
+}
+
+/* ------------footer ------------------------- */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.315);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  width: 100%;
+  max-width: 900px;
+  min-height: 50px;
+}
+
+.social-media {
+  display: flex;
+}
+
+
+.social-media>a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+
+.social-media>a:hover {
+  transform: scale(1.1, 1.1);
+}

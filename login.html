@@ -1,48 +1,72 @@
 <!DOCTYPE html>
+
 <head>
     <title>Log-in | Cafe de Java</title>
     <link rel="stylesheet" href="login.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="signup.css">
     <link rel="stylesheet" href="navbar.css">
 </head>
+
 <body>
     <header>
         <div class="right">
             <a href="index.html">Home</a>
             <div class="dropdown-container">
-                <a href="#" >Menu <i class="fas fa-caret-down"></i></a>
-            <div class="dropdown">
+                <a href="#">Menu <i class="fas fa-caret-down"></i></a>
+                <div class="dropdown">
                     <a href="/Coffee.html"> Coffee</a>
                     <a href="/Pastries.html"> Pastries</a>
-            </div>
-            
+                </div>
+
             </div>
             <a href="#">Events</a>
-            <a href="#FeedBack" onclick="TurnOnFeedBack()" >Feedback</a>
-            
+            <a href="#FeedBack" onclick="TurnOnFeedBack()">Feedback</a>
+
         </div>
         <div class="left">
             <a href="login.html">Log-in</a>
             <a href="signup.html">Sign-up</a>
         </div>
     </header>
-        
+
+    <div class="wrapper">
         <div class='sign-up'>
-                <center><h3>Login </h3></center>
-            <br>
-            <form action="" method="post" autocomplete="off"> 
-                <label for="name">Email</label>
-                <input required type="email" name="email" id=""placeholder="Your e-mail address" autocomplete="off"><br><br>
-                <label for="name">Password</label>
-                <input required type="password" name="pass "placeholder="Your password"><br><br>
-                <center>
-                <button type="submit">Login</button>
+            <center>
+                <h3>Login </h3>
             </center>
             <br>
+            <form action="" method="post" autocomplete="off">
+                <label for="name">Email</label>
+                <input required type="email" name="email" id="" placeholder="Your e-mail address"
+                    autocomplete="off"><br><br>
+                <label for="name">Password</label>
+                <input required type="password" name="pass " placeholder="Your password"><br><br>
+                <center>
+                    <button type="submit">Login</button>
+                </center>
+                <br>
             </form>
         </div>
-
     </div>
+
+    <footer>
+        <div class="footer-main">
+            <!-- <p>
+                    Locally owned coffee roaster located in Manhatten. We are dedicated to the best coffees from all over the world, produced in a sustainable way for the earth and the farmers alike 
+                </p> -->
+            <div class="address">
+                <h5>Manhatten - Via del Bagnone, 24 - PI: 06334730485</h5>
+            </div>
+            <div class="social-media">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
