@@ -2,6 +2,7 @@
 
 body {
   /* background: url("./images/backgrounds/main_01_1440x1024.jpg")  no-repeat; */
+<<<<<<< HEAD
   background: #FF5F6D;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);
@@ -10,6 +11,13 @@ body {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100vh;
   font-family: 'Montserrat', sans-serif;
+=======
+  background: #FF5F6D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* height: 100vh; */
+  font-family: 'Montserrat' , sans-serif;
+>>>>>>> 1b059d4f97a0410061a13d140cfbb8af6f0eaea6
 }
 
 /*---- text animation---------*/
