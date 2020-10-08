@@ -18,6 +18,8 @@
     border: 1px solid orange;
     position: relative;
     box-shadow: -1px 0px 16px -7px rgba(10, 10, 10, 1);
+    transition: .5s ease;
+
 }
 
 .cooffe-container .co-content img {
@@ -28,15 +30,16 @@
 
 .cooffe-container .co-content .inner {
     position: absolute;
+    /* top: 100%; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
     width: 100%;
-    background-color: rgba(65, 55, 55, 0.7);
-    transition: all 1s ease;
     top: 100%;
-    padding: 10px;
-    /* margin-top: 41%; */
-    display: none;
-    /* visibility: hidden; */
-
+    /* height: 0; */
+    transition: .2s ease;
+    background-color: rgba(65, 55, 55, 0.7);
 }
 
 .cooffe-container .co-content .inner p.head {
@@ -58,9 +61,10 @@
 .cooffe-container .co-content:hover .inner {
     /* visibility: visible; */
     /* margin: 0; */
-    top: auto;
-    bottom: 0;
-    display: block;
+  
+    /* display: block; */
+    top: 90px;
+    padding: 10px;
 }
 
 
