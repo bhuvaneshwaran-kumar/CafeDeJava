@@ -9,6 +9,7 @@
     justify-content: space-around;
     /* align-content:space-around ; */
     padding: 20px;
+    margin-bottom: 50px;
 }
 
 .cooffe-container .co-content {
@@ -61,7 +62,7 @@
 .cooffe-container .co-content:hover .inner {
     /* visibility: visible; */
     /* margin: 0; */
-  
+
     /* display: block; */
     top: 90px;
     padding: 10px;
@@ -73,7 +74,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.315);
+    background: rgba(255, 255, 255, 0.363);
 }
 
 .footer-main {
